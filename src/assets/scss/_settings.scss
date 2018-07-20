@@ -1,0 +1,127 @@
+//  Foundation for Emails Settings
+//  ------------------------------
+//
+//  Table of Contents:
+//
+//   1. Global
+//   2. Grid
+//   3. Block Grid
+//   4. Typography
+//   5. Button
+//   6. Callout
+//   7. Menu
+//   8. Thumbnail
+
+
+// 1. Global
+// ---------
+$kp-midnight: #003B71;
+$kp-blue: #0078B3;
+$kp-sky: #90CEF1;
+$kp-moss: #4A7628;
+$kp-grass: #57A635;
+$kp-leaf: #A4AD7E;
+$kp-burnt-sienna: #d1480c;
+$kp-tiger-lily: #F36C0D;
+$kp-tangerine: #FEC941;
+$kp-ocean: #066564;
+$kp-aqua: #20A29E;
+$kp-acai: #BB1654;
+$kp-fushia: #F05674;
+$kp-rose: #FFA4B4;
+$kp-plum: #583985;
+$kp-lilac: #846EAD;
+$kp-lavender: #B2A8D2;
+$white: #FFFFFF;
+$black: #000000;
+$medium-gray: gray;
+$dark-gray: darkgray;
+
+$global-width: 580px;
+$global-width-small: 95%;
+$global-gutter: 16px;
+$container-background: $white;
+$global-padding: 16px;
+$global-margin: 16px;
+$global-breakpoint: $global-width + $global-gutter;
+
+// 2. Grid
+// -------
+
+$grid-column-count: 12;
+$column-padding-bottom: $global-padding;
+$container-radius: 0;
+
+// 3. Block Grid
+// -------------
+
+$block-grid-max: 8;
+$block-grid-gutter: $global-gutter;
+
+// 4. Typography
+// -------------
+
+$global-font-color: $black;
+$body-font-family: Helvetica, Arial, sans-serif;
+$global-font-weight: normal;
+$header-color: inherit;
+$global-line-height: 1.3;
+$global-font-size: 16px;
+$body-line-height: $global-line-height;
+$header-font-family: $body-font-family;
+$header-font-weight: $global-font-weight;
+$h1-font-size: 34px; //Nombre
+$h2-font-size: 23px; //Titulo
+$h3-font-size: 11px; //Area
+$header-margin-bottom: 10px;
+$paragraph-margin-bottom: 10px;
+$small-font-size: 80%;
+$small-font-color: $medium-gray;
+$lead-font-size: $global-font-size * 1.25;
+$lead-line-height: 1.6;
+$text-padding: 10px;
+$subheader-lineheight: 1.4;
+$subheader-color: $dark-gray;
+$subheader-font-weight: $global-font-weight;
+$subheader-margin-top: 4px;
+$subheader-margin-bottom: 8px;
+$hr-width: $global-width;
+$hr-border: 1px solid $black;
+$hr-margin: 20px auto;
+$anchor-text-decoration: none;
+$anchor-color: $kp-blue;
+$anchor-color-visited: $anchor-color;
+$anchor-color-hover: darken($kp-blue, 10%);
+$anchor-color-active: $anchor-color-hover;
+$stat-font-size: 40px;
+
+// 5. Button
+// ---------
+
+$button-padding: (
+  tiny: 4px 8px 4px 8px,
+  small: 5px 10px 5px 10px,
+  default: 8px 16px 8px 16px,
+  large: 10px 20px 10px 20px,
+);
+$button-color: $white;
+$button-color-alt: $medium-gray;
+$button-font-weight: bold;
+$button-margin: 0 0 $global-margin 0;
+$button-background: $kp-blue;
+$button-border: 2px solid $button-background;
+$button-height:52px;
+
+// 6. Callout
+// ----------
+
+// $callout-background: $white;
+// $callout-background-fade: 85%;
+// $callout-padding: 10px;
+// $callout-margin-bottom: $global-margin;
+// $callout-border: 1px solid darken($callout-background, 20%);
+// $callout-border-secondary: 1px solid darken($secondary-color, 20%);
+// $callout-border-success: 1px solid darken($success-color, 20%);
+// $callout-border-warning: 1px solid darken($warning-color, 20%);
+// $callout-border-alert: 1px solid darken($alert-color, 20%);
+
